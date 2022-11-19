@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/nuevoR.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/styleBg.css">
+    <link rel="stylesheet" href="styles/searchBar.css">
+
+
+    <title>Restaurante</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="container container-flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a  href="index.html" class="menu__link menu__link--select">Inicio</a></li>
+            </ul>
+            <div class="logo">
+                <img src="./Imagenes/logo.jpg" >
+            </div>
+        </div>
+    </nav>
+    <div class="contenedor--title">
+        <p class="title_udc">Restaurantes 24/7</p> 
+
+        <div class="contenedor--title-rst">
+            <h6>¡Bienvenidos a su restaurante de confianza!.....<span> &#160;</span></h6>
+        </div>
+    </div>
+
+
+    <h1>Nuevo Restaurante</h1>
+    <form method="post" action="clases/procesar">
+        <label>Nombre</label><br>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label>Descripcion</label><br>
+        <input type="text" name="descripcion" id="descripcion"><br>
+        <label>Direccion</label><br>
+        <input type="text" name="direccion" id="direccion"><br>
+        <label>Imagen</label><br>
+        <input type="text" name="imagen" id="imagen"><br>
+        <input type="submit" name="Guardar" value="Guardar">
+        
+    </form>
+</body>
+</html>
